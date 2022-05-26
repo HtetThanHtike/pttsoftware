@@ -1,0 +1,27 @@
+git --version
+git
+
+ssh-keygen
+enter 3 times
+
+ssh -T git@github.com
+git config --global user.name "Htet Than Htike"
+git config --global user.email "htetthanh@gmail.com"
+
+Check user and email
+git config user.name
+git config user.email
+
+git init
+
+git remote add origin git@github.com:HtetThanHtike/pttsoftware.git
+
+git remote -v
+
+git status
+
+git add -A
+
+git commit -m "26 may 2022"
+
+git push -u origin master
